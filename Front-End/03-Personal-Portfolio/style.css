@@ -1,0 +1,363 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Main Body */
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.page {
+    width: 100%;
+    max-width: 1600px;
+}
+
+/* Layout Page */
+.layout {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.left-panel {
+    width: 35%;
+    background-color: white;
+    border: 3px solid black;
+    margin: 15px;
+}
+
+.right-panel {
+    width: 65%;
+    margin: 15px;
+    background-color: white;
+    border: 3px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Left-Panel Style */
+
+.left-panel header {
+    margin-top: 20px;
+    background-color: white;
+}
+
+.left-panel .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-panel .logo a {
+    font-size: larger;
+}
+
+.left-panel .logo img {
+    height: 50px;
+    width: 50px;
+}
+
+.nav-left-panel ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-left-panel ul li {
+    margin: 5px;
+}
+
+.left-panel .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border-bottom: 3px solid black;
+}
+
+.left-panel .intro h1{
+    font-size: 20px;
+}
+
+.left-panel .intro p{
+    margin-top: -10px;
+    color: grey;
+}
+
+.left-panel .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-panel .projects h2 {
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid black;
+    width: 100%;
+    padding: 0;
+    height: 50px;
+    margin-bottom: 0;
+}
+
+.left-panel .projects ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.left-panel .projects li {
+    height: 50px;
+    background-color: #74cfc8;
+    border-bottom: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.left-panel .work-experience h2{
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+    text-align: center;
+    border-bottom: 3px solid black;
+    height: 50px;
+}
+
+.left-panel .work-experience article {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #74cfc8;
+    border-bottom: 3px solid black;
+    padding: 10px;
+}
+
+.left-panel .work-experience a{
+    color: #0000EE;
+}
+
+.left-panel .education {
+    padding: 10px;
+}
+
+.left-panel .education h2{
+    text-align: center;
+}
+
+.left-panel .education ul {
+    margin-left: -38px;
+}
+
+.left-panel .education li {
+    list-style-type: none;
+}
+
+.left-panel .teacher-reviews h2{
+    text-align: center;
+}
+
+.left-panel .teacher-reviews blockquote {
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.left-panel .teacher-reviews blockquote p {
+    padding: 15px;
+}
+
+.left-panel .teacher-reviews blockquote footer {
+    color: grey;
+    padding: 15px;
+    margin-top: -30px;
+}
+
+.left-panel footer p{
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Right-Panel Style*/
+
+.right-panel header {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.right-panel .logo {
+    display: flex;
+    align-items: center;
+}
+
+.right-panel .logo img {
+    margin-right: 7px;
+    height: 50px;
+    width: 50px;
+}
+
+.nav-right-panel {
+    margin-left: auto;
+}
+
+.nav-right-panel ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+
+.nav-right-panel ul li{
+    padding: 5px
+}
+
+.right-panel main .intro{
+    border-bottom: 3px solid black;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-panel main .intro h1 {
+    font-size: 40px;
+}
+
+.right-panel .intro p{
+    margin-top: -10px;
+    color: grey;
+}
+
+.right-panel .background {
+    width: 100%;
+    display: flex;
+}
+
+.right-panel .projects {
+    width: 30%;
+}
+.right-panel .work-experience {
+    width: 30%;
+}
+.right-panel .education {
+    width: 40%;
+}
+
+.right-panel .projects {
+    padding: 10px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.right-panel .work-experience {
+    padding: 10px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.right-panel .education {
+    padding: 10px;
+    border-bottom: 3px solid black;
+}
+
+.right-panel .projects ul {
+    list-style-type: none;
+}
+
+.right-panel .projects ul li {
+    margin-left: -40px;
+    margin-top: 20px;
+}
+
+.right-panel .work-experience a{
+    color: #0000EE;
+}
+
+.right-panel .education ul {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+
+
+.right-panel .teacher-reviews .the-reviews {
+    display: flex;
+}
+
+.right-panel .teacher-reviews blockquote {
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.right-panel .teacher-reviews blockquote p {
+    padding: 15px;
+}
+
+.right-panel .teacher-reviews blockquote footer {
+    color: grey;
+    padding: 15px;
+    margin-top: -30px;
+}
+
+.right-panel footer p{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+
+    /* right-panel will move down when the screen getting small */
+    .layout {
+        flex-direction: column;
+        margin: 15px;
+    }
+
+    .left-panel,
+    .right-panel {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /* Navigate of left-panel will move down when the screen getting small */
+    .nav-left-panel ul {
+        flex-direction: column;
+        margin-left: -40px;
+    }
+
+    .right-panel .background {
+        flex-direction: column;
+    }
+
+    .right-panel .projects,
+    .right-panel .work-experience,
+    .right-panel .education {
+        width: 100%;
+        border-right: none;
+    }
+
+    .right-panel .the-reviews {
+        flex-direction: column;
+    }
+}
