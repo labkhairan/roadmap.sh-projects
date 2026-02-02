@@ -14,11 +14,7 @@ Click any of the images below to view the source code of each project.
   <a href="/frontend-projects/01-single-page-cv/">
     <img width="48%" src="./assets/images/single-page-cv.png" alt="single page cv preview" />
   </a>
- 
-</p>
-
-<p align="left">
-   <a href="/frontend-projects/02-basic-html-website/">
+  <a href="/frontend-projects/02-basic-html-website/">
     <img width="48%" src="./assets/images/basic-html-website.png" alt="basic html website preview" />
   </a>
 </p>
@@ -38,6 +34,7 @@ This repository contains back-end projects built by following the
 
 ## Projects List
 - [Task Tracker](https://roadmap.sh/projects/task-tracker)
+- [Github User Activity](https://roadmap.sh/projects/github-user-activity)
 
 Click any of the images below to view the source code of each project.
 
@@ -45,4 +42,8 @@ Click any of the images below to view the source code of each project.
   <a href="/backend-projects/01-task-tracker/">
     <img width="48%" src="./assets/images/task-tracker-cli.png" alt="task tracker cli" />
   </a>
+  <a href="/backend-projects/02-github-user-activity/">
+    <img width="48%" src="./assets/images/github-activity.png" alt="github activity cli" />
+  </a>
 </p>
+
